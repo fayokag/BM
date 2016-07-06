@@ -1,0 +1,66 @@
+.overLay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000;
+    z-index: 1;
+    opacity: 0.5;
+}
+.box{
+    width: 518px;
+    height: 300px;
+    background-color: #fff;
+    border: 1px solid #86bac1;
+    border-radius: 2px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -259px;
+    font-size: 14px;
+    z-index: 2;
+}
+.boxFile{
+    width: 298px;
+    height: 28px;
+    line-height: 28px;
+    text-indent: 2em;
+    border: 1px solid #86bac1;
+    margin: 58px auto 0 auto;
+}
+.confirm{
+    width: 240px;
+    margin: 84px auto 0 auto;
+    line-height: 26px;
+    text-align: center;
+    color: #fff;
+}
+.confirmYes,.confirmCancel{
+    width: 104px;
+    height: 26px;
+    background-color: #e99314;
+}
+
+.boxSen{
+    width: 400px;
+    height: 150px;
+    background-color: #fff;
+    border: 1px solid #86bac1;
+    border-radius: 2px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -75px;
+    margin-left: -200px;
+    font-size: 14px;
+    z-index: 3;
+}
+.boxSenConfirm{
+    width: 240px;
+    margin: 60px auto 0 auto;
+    line-height: 26px;
+    text-align: center;
+    color: #fff;
+}

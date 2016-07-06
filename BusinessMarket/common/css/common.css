@@ -1,0 +1,279 @@
+html {
+    font-size: 12px;
+}
+
+body {
+    font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti, "Microsoft YaHei";
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #fff;
+    color:#000;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+}
+
+body, ul, li, p, div, h4, i, em, b, span, a {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    text-decoration: none;
+}
+img{
+    display: block;
+}
+input{
+    outline: none;
+    padding: 0;
+    margin:0;
+    border:none;
+}
+a{
+    display: block;
+}
+a,a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+.ovh{
+    overflow:hidden;
+}
+.dn{
+    display: none;
+}
+.db{
+    display: block;
+}
+.tc{
+    text-align: center;
+}
+.cur_point{
+    cursor:pointer;
+}
+.tein1{
+    text-indent: 1em;
+}
+.ml10{
+    margin-left: 10px;
+}
+.ml20{
+    margin-left: 20px;
+}
+.mr3{
+    margin-right: 3px;
+}
+.mr10{
+    margin-right: 10px;
+}
+.mt6{
+    margin-top: 6px;
+}
+.mt10{
+    margin-top: 10px;
+}
+.mt20{
+    margin-top: 20px;
+}
+.w100{
+    width: 100%;
+}
+.w980{
+    width: 980px;
+}
+.h100{
+    height:100%;
+}
+.mark{
+    color: #e99314;
+}
+.bg_sky{
+    background-color: #F0FFFF;
+}
+.fz18{
+    font-size: 18px;
+}
+.fz14{
+    font-size: 14px;
+}
+.marAuto{
+    margin: 0 auto;
+}
+.pos_rel{
+    position: relative;
+}
+.pos_abs{
+    position: absolute;
+}
+.clearfix:after {
+    content: ".";     /*内容为“.”就是一个英文的句号而已。也可以不写。*/
+    display: block;   /*加入的这个元素转换为块级元素。*/
+    clear: both;     /*清除左右两边浮动。*/
+    visibility: hidden;      /*可见度设为隐藏。注意它和display:none;是有区别的。visibility:hidden;仍然占据空间，只是看不到而已；*/
+    line-height: 0;    /*行高为0；*/
+    height: 0;     /*高度为0；*/
+    font-size:0;    /*字体大小为0；*/
+}
+.clearfix { *zoom:1;}   /*这是针对于IE6的，因为IE6不支持:after伪类，这个神奇的zoom:1让IE6的元素可以清除浮动来包裹内部元素。*/
+.overlay{
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index: 1;
+    background-color: #000;
+    opacity: 0.5;
+}
+
+/* 头部 */
+.header{
+    height:139px;
+    background: url("/common/images/bgTop.png") repeat-x;
+}
+.header img{
+    display: block;
+    padding-top: 45px;
+}
+.middle{
+    margin-top: 1px;
+    padding-bottom: 20px;
+}
+.nav{
+    line-height: 39px;
+}
+.navNormal{
+    width:184px;
+    height:39px;
+    color:#000;
+    display: block;
+}
+.navTop{
+    background: url("/common/images/navTop.png") no-repeat;
+}
+.navBot{
+    background: url("/common/images/navBot.png") no-repeat;
+}
+.navRight{
+    background: url("/common/images/navRight.png") no-repeat;
+}
+.navClick{
+    color:#fff;
+    background: url("/common/images/navClick.png") no-repeat;
+}
+.navClick2{
+    color:#fff;
+    background: url("/common/images/navClick2.png") no-repeat;
+}
+.navRightClick{
+    background: url("/common/images/navRightClick.png") no-repeat;
+}
+.nav0{
+    width: 184px;
+    height: 39px;
+}
+.nav1{
+    width: 184px;
+    height: 39px;
+    position: absolute;
+    left:142px;
+}
+.nav2{
+    width: 184px;
+    height: 39px;
+    position: absolute;
+    left:290px;
+}
+.nav3{
+    width: 184px;
+    height: 39px;
+    position: absolute;
+    left:432px;
+}
+.nav4{
+    width: 184px;
+    height: 39px;
+    position: absolute;
+    left:580px;
+}
+.nav5{
+    width: 184px;
+    height: 39px;
+    position: absolute;
+    left:730px;
+}
+.navSon{
+    height:66px;
+}
+.navSon0,.navSon1,.navSon2,.navSon3,.navSon4,.navSon5{
+    width: 110px;
+}
+.navSon0{
+    top:0;
+    left:37px;
+}
+.navSon1{
+    top:0;
+    left:178px;
+}
+.navSon2{
+    top:0;
+    left:325px;
+}
+.navSon3{
+    top:0;
+    left:468px;
+}
+.navSon4{
+    top:0;
+    left:617px;
+}
+.navSon5{
+    top:0;
+    left:766px;
+}
+.proNameList{
+    width: 110px;
+    height: 30px;
+    border: 1px solid #e8e8e8;
+    border-radius: 2px;
+    background-color: #e0e1e1;
+    line-height: 30px;
+    color: #000;
+}
+.proAct{
+    width: 110px;
+    height: 30px;
+    border: 1px solid #e8e8e8;
+    border-radius: 2px;
+    background-color: #f0f0f0;
+    line-height: 30px;
+    color: #000;
+}
+.edit,.delete{
+    margin: 0 0 0 10px;
+    display: block;
+}
+.footer{
+    height: 36px;
+    background-color: #6eadb6;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+
+
+
+
+

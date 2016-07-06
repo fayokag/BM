@@ -1,0 +1,240 @@
+.list{
+    margin-top: 20px;
+}
+.listTab{
+    line-height: 30px;
+}
+.listAll{
+    width: 114px;
+    height: 30px;
+    background-color: #f0f0f0;
+    color: #000;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+}
+.listMe{
+    width: 114px;
+    height: 30px;
+    background-color: #f0f0f0;
+    color: #000;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+}
+.listTabClick{
+    background-color: #e99314;
+    color: #fff;
+}
+.listCon{
+    margin-top: 6px;
+    width: 978px;
+    height: 356px;
+    border: 1px solid #86bac1;
+    border-radius: 2px;
+}
+.listConTop{
+    width: 978px;
+    height: 52px;
+    padding-top: 24px;
+    background-color: #6eadb6;
+    line-height: 30px;
+}
+.textName{
+    width: 128px;
+    height: 30px;
+    border-radius: 2px;
+    margin-left: 10px;
+    text-indent: 1em;
+    display: block;
+}
+.textPhone{
+    width: 160px;
+    height: 30px;
+    border-radius: 2px;
+    margin-left: 10px;
+    text-indent: 1em;
+    display: block;
+}
+.textSource{
+    width: 126px;
+    height: 30px;
+    border-radius: 2px;
+    margin-left: 10px;
+    text-indent: 1em;
+    display: block;
+}
+.select,.inviteName{
+    width: 98px;
+    height: 30px;
+    border-radius: 2px;
+    background-color: #f0f0f0;
+    color: #000;
+    margin-left: 10px;
+    display: block;
+}
+.add,.userExport{
+    width: 98px;
+    height: 30px;
+    border-radius: 2px;
+    background-color: #f0f0f0;
+    color: #000;
+    margin: 0 10px;
+    display: block;
+}
+.listConBot{
+    height: 280px;
+    line-height: 40px;
+    overflow-y: scroll;
+}
+.listConTitle,.nameListTitle{
+    width: 978px;
+    height: 40px;
+    color: #7fb6be;
+}
+.listConTitle div,.listDataSpecial{
+    width: 160.5px;
+    height: 40px;
+    background-color: #f0f0f0;
+}
+.listDataSpecial input,.listDataNormal input,.editState select{
+    width: 100px;
+    height: 30px;
+    margin: 4px 10px;
+    border: 1px solid #e7e7e8;
+    background-color: #fff;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+}
+.editSign{
+    width: 60px;
+    height: 30px;
+    margin: 4px 10px;
+    border: 1px solid #e7e7e8;
+    background-color: #fff;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+}
+.listData{
+    color: #000;
+}
+.listData1{
+    width: 978px;
+    height: 40px;
+}
+.listDataNormal{
+    width: 160.5px;
+    height: 40px;
+}
+.listSign{
+    width: 60px;
+    height: 26px;
+    margin: 7px 10px 0 10px;
+    background-color: #e99314;
+    line-height: 26px;
+    color: #fff;
+}
+
+.nameListTitle div,.proNameSpecial{
+    width: 242.25px;
+    height: 40px;
+    background-color: #f0f0f0;
+    color: #000;
+}
+.proNameNormal{
+    width: 242.25px;
+    height: 40px;
+    color: #000;
+}
+
+/* 详细信息 */
+.basicInfoTitle{
+    width: 980px;
+    height: 38px;
+    line-height: 38px;
+    background-color: #6eadb6;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    color: #fff;
+    text-indent: 2em;
+}
+.basicInfoCon{
+    width: 914px;
+    border: 1px solid #6eadb6;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    padding: 20px 0 20px 64px;
+}
+.promotionDetail p{
+    width: 92px;
+    height: 26px;
+    line-height: 26px;
+    color: #000;
+    float: left;
+}
+.promotionDetail span{
+    width: 92px;
+    height: 26px;
+    line-height: 26px;
+    color: #000;
+    float: left;
+    display: block;
+}
+.promotionDetail em{
+    line-height: 26px;
+    margin: 0 10px;
+    float: left;
+    display: block;
+}
+.basicInfoLeft{
+    width: 50%;
+}
+.basicInputText{
+    width: 190px;
+    height: 26px;
+    line-height: 26px;
+    border: 1px solid #6eadb6;
+    text-indent: 1em;
+    font-size: 14px;
+    display: block;
+    float: left;
+}
+.basicSelEdu,.basicSelReg,.basicSelHouse,.marriageSelReg,.marriageSelBirthPlan{
+    width: 190px;
+    height: 26px;
+    border: 1px solid #6eadb6;
+    text-indent: 1em;
+    background-color: #fff;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    float: left;
+    font-size: 14px;
+}
+.basicProvince,.basicCity,.basicArea{
+    width: 70px;
+    height: 26px;
+    border: 1px solid #6eadb6;
+    text-indent: 1em;
+    background-color: #fff;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    float: left;
+    font-size: 14px;
+}
+.basicAddWrite{
+    margin-left: 92px;
+}
+.basicAddWrite textarea{
+    width: 294px;
+    height: 64px;
+    border: 1px solid #6eadb6;
+}
+.basicSex input,.marriageSex input{
+    float: left;
+    display: block;
+    margin-top: 6px;
+}
+.basicSex label,.marriageSex label{
+    line-height: 26px;
+    float: left;
+    display: block;
+    margin-left: 4px;
+}
